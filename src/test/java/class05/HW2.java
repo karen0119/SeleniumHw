@@ -40,7 +40,7 @@ public class HW2 extends CommonMethods {
         //enter text in text box
         driver.switchTo().frame(0);
         WebElement textBox=driver.findElement(By.xpath("//input"));
-        textBox.sendKeys("Hello World");
+        textBox.sendKeys("This is practice");
 
         Thread.sleep(3000);
         driver.quit();
